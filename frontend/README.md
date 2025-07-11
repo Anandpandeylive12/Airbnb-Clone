@@ -1,12 +1,31 @@
-# React + Vite
+# Airbnb Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend for an Airbnb-like application, built with React and Vite.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Browse and search listings
+- User authentication
+- Book and manage stays
+- Responsive UI
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Install dependencies:
+   ```
+   npm install
+   ```
+2. Start the development server:
+   ```
+   npm run dev
+   ```
+
+## Tech Stack
+
+- React
+- Vite
+- Axios (for API calls)
+
+## Backend
+
+See [`../backend/README.md`](../backend/README.md) for backend
