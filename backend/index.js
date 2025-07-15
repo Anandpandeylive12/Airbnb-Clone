@@ -22,6 +22,12 @@ app.use("/api/auth", authRouter )
 app.use("/api/user", userRouter )
 app.use("/api/listing",listingRouter )
 app.use("/api/booking",bookingRouter )
+app.get('/',(req,res)=>{
+    res.send({
+        activeStatus:true,
+        error:false
+    })
+})
 
 
 app.listen(port,()=>{
